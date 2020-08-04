@@ -1,0 +1,25 @@
+* {
+	transition: 250ms all;
+}
+.center-text {
+	text-align: center;
+}
+.position-bottom-right {
+	position: fixed;
+	bottom: 2em;
+	right: 2em;
+}
+.hoverable {
+	height: 100%;
+}
+.hoverable:hover {
+	color: #3273dc;
+}
+.hidden_scrollbars::-webkit-scrollbar {
+	display: none;
+}
+
+.hidden_scrollbars{
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+}

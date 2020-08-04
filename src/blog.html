@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+
+	<!-- animate.css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+	
+	<!-- bulma -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+
+	<!-- font awesome -->
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>about argonsodiumvanadium</title>
+</head>
+<body id="body" class="pb-6" style="background-color: #222;width:100%;">
+	<div class="columns" style="margin: 0">
+		<div class="column is-1 animate__animated has-background-warning"></div>
+		<div class="column is-10" style="padding: 0">
+			<nav class="navbar animate__animated is-warning" style="height: 4em;" role="navigation" aria-label="main navigation">
+				<div class="navbar-brand ml-2" >
+					<a href="index.html">
+						<img src="logo.png" style="height: 7em;width: 7em">
+					</a>
+
+					<a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+					  <span aria-hidden="true"></span>
+					  <span aria-hidden="true"></span>
+					  <span aria-hidden="true"></span>
+					</a>
+
+
+				</div>
+
+				<div class="navbar-menu pt-6" id="navMenu">
+					<div class="navbar-start">
+						<a class="has-text-black px-3 hoverable" href="projects.html">
+							<div class="ml-4">projects</div>
+						</a>
+						<a class="has-text-black px-3 hoverable" href="blog.html">
+							<div class="ml-4">blog</div>
+						</a>
+						<a class="has-text-black px-3 hoverable " style="font-size: 1em" href="about_me.html">
+							<div class="ml-4">about me</div>
+						</a>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<div class="column is-1 has-background-warning animate__animated"></div>
+	</div>
+
+	<section class="hero is-medium py-6 has-background-warning animate__animated" style="width: 100%;background-image: linear-gradient(to right,#ffdd57,transparent),linear-gradient(to bottom,#ffdd57,transparent),url('https://images8.alphacoders.com/101/thumb-1920-1015027.jpg');background-size: cover;">
+		<div class="hero-body columns" style="max-width: 100%;">
+			<div class="column is-1"></div>
+			<div class="container column is-4">
+				<h1 style="font-size: 3.5em;" class="title">
+					Blog
+				</h1>
+			</div>
+
+			<div class="column"></div>
+		</div>
+	</section>
+
+	<div class="pt-6 mt-6 mx-6 columns">
+		<div class="notification is-dark column mx-6 px-6 py-6" style="border-style: solid;border-color: #ffdd57">
+			<h1 class="title has-text-warning">
+				Well it looks like you hit a <span class="has-text-danger">404</span>
+			</h1>
+			
+			<p>
+				Right now I have no secret ancient knoweledge I would like to share in a blog so lets just leave this blog at that, I will add stuff soon, when I feel acomplished
+			</p>
+
+		</div>
+	</div>
+
+	
+	<input id="ghost_input" style="opacity: 0;">
+	<div id="notification_div"></div>
+
+	<script src="index.js"></script>
+	<script type="text/javascript">
+		loadProjects()
+	</script>
+</body>
+</html>
