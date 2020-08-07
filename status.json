@@ -2,8 +2,8 @@
   "src" : [
 	  {
       "name"   : "Animegami",
-      "done"   : "5",
-      "status" : "paused",
+      "done"   : "15",
+      "status" : "active",
       "class"  : "warning",
       "link"   : "projects/animegami.html"
 	  }
