@@ -4,7 +4,7 @@
       "name"   : "Animegami",
       "done"   : "15",
       "status" : "active",
-      "class"  : "warning",
+      "class"  : "success",
       "link"   : "projects/animegami.html"
 	  }
   ]
