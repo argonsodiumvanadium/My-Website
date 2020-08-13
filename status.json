@@ -2,8 +2,8 @@
   "src" : [
 	  {
       "name"   : "Animegami",
-      "done"   : "55",
-      "status" : "GUI is coming out <b>GREAT</b>",
+      "done"   : "60",
+      "status" : "GUI is coming out, and it looks <b>GREAT</b> | updated the website check it out",
       "class"  : "success",
       "link"   : "projects/animegami.html"
 	  }
