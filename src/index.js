@@ -62,7 +62,7 @@ loadProjects = async () => {
 		div.innerHTML += `
 			<div onclick="window.open('${project.link}','_self')" class="mt-6 mb-2" style="cursor:pointer">
 				<h2 class="has-text-${project.class}">Animegami</h2>
-				<span class="tag is-${project.class}">Paused</span>
+				<span class="tag is-${project.class}">${project.status}</span>
 				<span class="tag is-${project.class}">${project.done}% completed</span>
 				<progress class="progress is-${project.class} mt-4" value="${project.done}" max="100">10%</progress>
 			</div>
