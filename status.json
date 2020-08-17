@@ -2,9 +2,9 @@
   "src" : [
 	  {
       "name"   : "Animegami",
-      "done"   : "60",
-      "status" : "GUI is being upgraded and perfected, the UX has taken a big hit",
-      "class"  : "success",
+      "done"   : "80",
+      "status" : "everything is done, UX is to be perfected, and some minor GUI tweaks",
+      "class"  : "primary",
       "link"   : "projects/animegami.html"
 	  }
   ]
