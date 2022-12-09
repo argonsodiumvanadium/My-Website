@@ -1,6 +1,12 @@
 * {
-	transition: 250ms all;
+	transition: 100ms all;
+  font-family: 'Source Code Pro', monospace;
 }
+
+html, body {
+    background-color:#222
+}
+
 .center-text {
 	text-align: center;
 }
