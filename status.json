@@ -2,9 +2,9 @@
   "src" : [
 	  {
       "name"   : "Animegami",
-      "done"   : "90",
-      "status" : "I am done, only text needs to be fixed",
-      "class"  : "success",
+      "done"   : "100",
+      "status" : "Its done, and dusted.",
+      "class"  : "warning",
       "link"   : "projects/animegami.html"
 	  }
   ]
